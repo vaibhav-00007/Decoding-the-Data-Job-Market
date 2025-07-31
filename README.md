@@ -49,12 +49,17 @@ Finally, I loaded both transformed queries into the workbook, setting the founda
 
 - 📊 data_jobs_salary
 
-![Alt text](Images/data_job_salary_power_query.png)
+  ![Alt text](Images/data_job_salary_power_query.png)
 
 - 🛠️ data_job_skills
 
   ![Alt text](Images/data_job_skills_power_query.png)
 
+📊 Analysis
+  💡 Insights
+    - 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
+
+    - 💼  Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
 
 
 
