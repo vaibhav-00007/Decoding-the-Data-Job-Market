@@ -38,7 +38,7 @@ It includes detailed information on:
 
 I first used Power Query to extract the original data (data_salary_all.xlsx) and create two queries:
 - 🗃️ First one with all the data jobs information.
-- 🔧 The second listing the skills for each job ID.
+- 🔧 The second listing shows the skills for each job ID.
 🔄 Transform
 
 Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
@@ -47,9 +47,15 @@ Then, I transformed each query by changing column types, removing unnecessary co
 
 Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
 
-📊 data_jobs_salary
+- 📊 data_jobs_salary
 
-![data_jobs_salary_power_query](Images/data_job_salary_power_query.png.png)
+![Alt text](Images/data_job_salary_power_query.png)
+
+- 🛠️ data_job_skills
+
+  ![Alt text](Images/data_job_skills_power_query.png)
+
+
 
 
 
