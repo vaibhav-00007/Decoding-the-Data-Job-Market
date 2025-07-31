@@ -60,7 +60,7 @@ Finally, I loaded both transformed queries into the workbook, setting the founda
   💡 Insights
     - 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
     - Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
-    ![Alt text](folder-name/image-name.png)
+    ![Alt text](Images/salary_vs_skills.png)
     
   🤔 So What
     - This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
