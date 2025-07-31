@@ -49,7 +49,7 @@ Finally, I loaded both transformed queries into the workbook, setting the founda
 
 📊 data_jobs_salary
 
-[data_jobs_salary_power_query](folder-name/image-name .png)
+![data_jobs_salary_power_query](Images/data_job_salary_power_query.png.png)
 
 
 
