@@ -30,7 +30,7 @@ It includes detailed information on:
 - 📍 Locations
 - 🛠️ Skills
 
- ## Do more skills get you better pay?
+ ## 1. Do more skills get you better pay?
  
 ### 🔍 Skill: Power Query (ETL)
 
@@ -56,10 +56,54 @@ Finally, I loaded both transformed queries into the workbook, setting the founda
   ![Alt text](Images/data_job_skills_power_query.png)
 
 📊 Analysis
+
   💡 Insights
     - 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
+    - Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
+    ![Alt text](folder-name/image-name.png)
+    
+  🤔 So What
+    - This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
 
-    - 💼  Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
+## 2. What’s the salary for data jobs in different regions?
+
+### 🧮 Skills: PivotTables & DAX
+
+📈Pivot Table
+
+  - 🔢 I created a PivotTable using the Data Model I created with Power Pivot.
+  - 📊 I moved the job_title_short to the rows area and salary_year_avg to the values area.
+  - 🧮 Then I added a new measure to calculate the median salary for United States jobs
+
+    =CALCULATE(
+    MEDIAN(data_jobs_all[salary_year_avg]),
+    data_jobs_all[job_country] = "United States")
+
+🧮 DAX
+
+To calculate the median year salary, I used DAX.
+
+  Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
+
+📊 Analysis
+
+  💡 Insights
+  
+  - 💼 Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
+
+  - 💰 The salary disparity between US and Non-US roles is particularly notable in high-tech jobs, which might be influenced by the concentration of tech industries in the US.
+
+  ![Alt text](Images/median_salary_analysis.png)
+
+
+
+
+
+
+
+
+
+    
 
 
 
