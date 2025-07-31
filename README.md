@@ -42,3 +42,14 @@ I first used Power Query to extract the original data (data_salary_all.xlsx) and
 🔄 Transform
 
 Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
+
+🔗 Load
+
+Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
+
+📊 data_jobs_salary
+
+[data_jobs_salary_power_query](folder-name/image-name .png)
+
+
+
